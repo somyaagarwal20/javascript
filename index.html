@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="m"> click me</button>
+    <button id="r">Red</button>
+    <button id="g">Green</button>
+    <button id="p">pink</button>
+    <button id="d">Date</button>
+  
+    <h1 id="h"></h1>
+    <h1 id="hd"></h1>
+    
+
+    <script>
+        // console.log("welcome in javascript !!! ")
+        // console.log("hi this is somya")
+        // alert("hello world")
+        // document.write("hello world")
+        document.getElementById("m").onclick= function(){
+            console.log("hello this is somya")
+            document.getElementById("h").innerHTML=" my name is somya"
+
+        }
+         document.getElementById("r").onclick= function(){
+           
+            document.getElementById("h").style.color ="red"
+
+        }
+        document.getElementById("g").onclick= function(){
+           
+           document.getElementById("h").style.color =" green"
+
+       }
+       document.getElementById("p").onclick= function(){
+           
+           document.getElementById("h").style.color =" pink"
+
+       }
+       document.getElementById("d").onclick= function(){
+           
+           document.getElementById("hd").innerHTML = new Date()
+           document.getElementById("hd").style.color ="blue"
+
+
+       }
+      
+       
+    </script>
+</body>
+</html>
