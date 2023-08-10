@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" class="inp1">
+    <input type="text" class="inp2">
+
+    <select name="operation" class="operation" >
+        <option value="none" >none</option>
+       <option value="mul" >mul</option>
+       <option value="div" >div</option>
+       <option value="addition" >addition</option>
+       <option value="subtraction" >subtraction</option>
+       <option value="modulus" >modulus</option>
+       </select>
+
+       <script>
+        document.getElementsByClassName("operation")[0].onchange = function(){
+           let a=Number(document.getElementsByClassName("inp1")[0].value);
+           let b=Number(document.getElementsByClassName("inp2")[0].value);
+           let operation =document.getElementsByClassName("operation")[0].value;
+           if(operation=="addition"){
+               console.log(a+b);
+           }
+           else if(operation=="mul"){
+               console.log(a*b);
+           }
+           else if(operation=="subtraction"){
+               console.log(a-b);
+           }
+           else if(operation=="div"){
+               console.log(a/b);
+           }
+           else if(operation=="modulus"){
+               console.log(a%b);
+           }
+           
+           
+        };
+
+
+   </script>
+    
+</body>
+</html>

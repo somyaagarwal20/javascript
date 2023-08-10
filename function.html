@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // name function
+
+        function add (a,b){
+            console.log(`add =${a+b}`);
+        }
+        function minus (a,b){
+            console.log(`minus =${a-b}`);
+        }
+        function mul (a,b){
+            console.log(`mul =${a*b}`);
+        }
+        function divide (a,b){
+            console.log(`divide =${a/b}`);
+        }
+
+        add(20 ,10)
+        minus(20 ,10)
+        mul(20 ,10)
+        divide(20 ,10)
+        
+        // Anonymous function
+
+        (
+            (
+                function(a,b){
+                    console.log(a+b);
+                }
+            )(20 ,40)
+        );
+
+        //   arrow function
+            // (
+            //    (a,b) => {
+            //     console.log(a+b)
+            //    }
+            // )
+            // (100 ,300)
+       
+    </script>
+</body>
+</html>
