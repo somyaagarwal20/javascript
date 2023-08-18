@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <select name="operation" id="operation" >
+        <option value="black" >black</option>
+       <option value="red" >red</option>
+       <option value="green">green</option>
+       <option value="aqua">aqua</option>
+       <option value="pink">pink</option>
+       <option value="brown">brown</option>
+       </select>
+
+       <script>
+        document.getElementById("operation").onchange =function(){
+             let operation = document.getElementById("operation").value;
+             if(operation=="black"){
+                document.body.style.backgroundColor = "black"
+             }
+              else if (operation=="red"){
+                document.body.style.backgroundColor = "red"
+             }
+            else if(operation=="green"){
+                document.body.style.backgroundColor = "green"
+             }
+            else if(operation=="aqua"){
+                document.body.style.backgroundColor = "aqua"
+             }
+            else if(operation==" pink"){
+                document.body.style.backgroundColor = "pink"
+             }
+            else if(operation=="brown"){
+                document.body.style.backgroundColor = "brown"
+             }
+        }
+       </script>
+</body>
+</html>
