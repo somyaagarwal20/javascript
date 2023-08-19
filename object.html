@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>object</title>
+</head>
+<body>
+    
+<script>
+// let obj ={
+//     name : 'mohit',
+//     age:20,
+//     address: 'jaipur'
+// }
+// let obj =[{
+//     name : 'mohit',
+//     age:20,
+//     address: 'jaipur'
+// }
+// ,
+// {
+//     name : 'ankit',
+//     age:90,
+//     address: 'udaipur'
+// },
+// {
+//     name : 'aman',
+//     age:70,
+//     address: 'jodhpur'
+// },
+// {
+//     name : 'rishab',
+//     age:17,
+//     address: 'agra'
+// },
+// {
+//     name : 'somya',
+//     age:15,
+//     address: 'delhi'
+// },
+// {
+//     name : 'laksya',
+//     age:10,
+//     address: 'assam'
+// },
+// {
+//     name : 'anshul',
+//     age:30,
+//     address: 'pune'
+// },
+// {
+//     name : 'mansi',
+//     age:22,
+//     address: 'delhi'
+// },
+// {
+//     name : 'manya',
+//     age:12,
+//     address: 'agra'
+// },
+// {
+//     name : 'raghav',
+//     age:14,
+//     address: 'shilong'
+// }
+
+// ]
+// let a =obj.filter(function(item){
+//     return item.age >18
+// })
+// console.log(a)
+
+
+
+// console.log(obj[0].name)
+// console.log(obj[0].age)
+// console.log(obj[0].address)
+
+// for(let i of obj){
+//     console.log(i.name , i.age ,i.address)
+// }
+
+
+const person = {
+    fname: "john",
+    lname:"doe",
+    age:25,
+    salary : function(){
+        return 50000;
+    },
+    fullname : function(){
+        return this.fname + " " + this.lname
+    }
+}
+
+console.log(person.salary())
+console.log(person.fullname())
+
+</script>
+
+
+</body>
+</html>
