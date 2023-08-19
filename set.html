@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    //   setInterval(function(){
+    //     console.log("hello")
+    //   },2000
+    //   )
+
+    // let a=10
+    // let b=30
+
+    // console.log("add",a+b)
+
+    // setTimeout(function(){
+    //     console.log("minus",a-b)
+    // },2000);
+
+    // console.log("mul",a*b)
+    // let Condition=true
+    let a='mohit'
+    let prom = new Promise(function(resolve,reject){
+        if(a=='mohit'){
+            resolve("successfully")
+        }
+        else{
+            reject("unsuccessfully")
+        }
+
+    })
+    // console.log(prom)
+
+    prom.then((item)=>{
+        console.log(item)
+    }).catch((error)=>{
+        console.log(error)
+    })
+    </script>
+</body>
+</html>
