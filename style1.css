@@ -1,0 +1,833 @@
+<style>.container {
+    height: 1320vh;
+
+}
+
+.header {
+    height: 80px;
+    width: 100%;
+
+    display: flex;
+    background: white;
+}
+
+.element1 {
+    height: 100%;
+    width: 85%;
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.element2 {
+    height: 100%;
+    width: 15%;
+
+    display: flex;
+}
+
+.element1-1 {
+    height: 100%;
+    width: 5.5%;
+
+    margin-left: 55px;
+}
+
+.element1-1 img {
+    height: 54%;
+    width: 98%;
+    border: none;
+    margin-top: 15px;
+}
+
+.element1-2 {
+    height: 100%;
+    width: 6.3%;
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.element1-2 span {
+    font-size: 12px;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont,
+        Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 610;
+    color: #282c3f;
+    margin-top: 30px;
+    line-height: 13px;
+
+}
+
+.span1 {
+    font-size: 12px;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont,
+        Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 610;
+    color: #282c3f;
+    margin-top: 30px;
+    line-height: 13px;
+}
+
+.span2 {
+    font-size: 12px;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont,
+        Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 610;
+    color: #282c3f;
+    margin-top: 30px;
+    line-height: 13px;
+    margin-right: 9px;
+}
+
+.span3 {
+    font-size: 12px;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont,
+        Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 610;
+    color: #282c3f;
+    margin-top: 30px;
+    line-height: 13px;
+    margin-right: 18px;
+}
+
+.span4 {
+    font-size: 12px;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont,
+        Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 610;
+    color: #282c3f;
+    margin-top: 30px;
+    line-height: 13px;
+    margin-right: 17px;
+}
+
+.element1-3 {
+    height: 100%;
+    width: 8.4%;
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.element1-4 {
+    height: 100%;
+    width: 5.4%;
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.element1-5 {
+    height: 100%;
+    width: 13.5%;
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.element1-6 {
+    height: 100%;
+    width: 6.5%;
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.element1-7 {
+    height: 100%;
+    width: 6.5%;
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+#stu {
+    font-size: 12px;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont,
+        Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 610;
+    color: #282c3f;
+    margin-top: 30px;
+    line-height: 14px;
+
+}
+
+.sup {
+    font-size: 9px;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont,
+        Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 610;
+    color: #ff3f6c;
+    margin-left: 2px;
+    margin-top: 23px;
+    line-height: 13px;
+}
+
+.element1-8 {
+    height: 100%;
+    width: 42%;
+
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+#pop {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.inner1 {
+    height: 40px;
+    width: 8%;
+
+    margin-left: 53px;
+    background: #f5f5f6;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.inner2 {
+    height: 40px;
+    width: 67%;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    background: #f5f5f6;
+}
+
+.search {
+    height: 34.5px;
+    width: 97%;
+    background: #f5f5f6;
+    border: none;
+
+}
+
+.search1 {
+    height: 14px;
+    width: 100%;
+    margin-top: 13px;
+
+
+
+}
+
+.icon {
+    height: 100%;
+    width: 33%;
+
+
+
+
+
+}
+
+.icon img {
+    width: 25px;
+    height: 20px;
+    margin-left: 15px;
+    margin-top: 24px;
+}
+
+
+
+.profile {
+    font-size: 10px;
+    margin-bottom: 10px;
+    margin-left: 13px;
+
+}
+
+.heart {
+    font-size: 10px;
+    margin-left: 13px;
+
+}
+
+.bag {
+    font-size: 10px;
+    margin-left: 20px;
+}
+
+.box1 {
+    width: 99.8%;
+    height: 95vh;
+
+
+
+}
+
+.box1-1 {
+    width: 100%;
+    height: 13%;
+}
+
+.box1-2 {
+    width: 91%;
+    height: 64%;
+
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.box1-3 {
+    width: 99.7%;
+    height: 22%;
+
+
+}
+
+.box1-3 img {
+    height: 100%;
+    width: 100%;
+}
+
+.innerbox {
+    width: 24.87%;
+    height: 33.4%;
+
+}
+
+.innerbox img {
+    height: 100%;
+    width: 100%;
+}
+
+.box2 {
+    height: 550vh;
+    width: 100%;
+
+}
+
+.box2-1 {
+    height: 45.5vh;
+    width: 100%;
+
+    display: flex;
+}
+
+.box2-11 {
+    height: 100%;
+    width: 16.5%;
+
+
+}
+
+.box2-11 img {
+    height: 100%;
+    width: 100%;
+}
+
+.box2-2 {
+    height: 26vh;
+    width: 100%;
+
+}
+
+.box2-21 {
+    height: 7vh;
+    width: 100%;
+
+}
+
+.box2-22 {
+    height: 19vh;
+    width: 99.8%;
+
+}
+
+.box2-22 img {
+    width: 100%;
+    height: 100%;
+}
+
+.box2-3 {
+    height: 66vh;
+    width: 99.8%;
+
+    display: flex;
+}
+
+.box2-31 {
+    height: 100%;
+    width: 20%;
+
+
+}
+
+.box2-31 img {
+    height: 100%;
+    width: 100%;
+}
+
+.box2-4 {
+    height: 20vh;
+    width: 100%;
+
+}
+
+.box2-4 img {
+    height: 100%;
+    width: 100%;
+}
+
+.box2-5 {
+    height: 52vh;
+    width: 100%;
+
+    display: flex;
+}
+
+.box2-51 {
+    height: 100%;
+    width: 16.5%;
+
+
+}
+
+.box2-51 img {
+    height: 100%;
+    width: 100%;
+}
+
+.box2-61 {
+    height: 9vh;
+    width: 100%;
+
+}
+
+.box2-62 {
+    height: 20vh;
+    width: 100%;
+
+}
+
+.box2-62 img {
+    height: 100%;
+    width: 100%;
+}
+
+.box2-7 {
+    height: 51vh;
+    width: 100%;
+
+    display: flex;
+}
+
+.box2-71 {
+    height: 51vh;
+    width: 20%;
+
+
+}
+
+.box2-71 img {
+    height: 100%;
+    width: 100%;
+
+
+}
+
+.box2-8 {
+    height: 19.5vh;
+    width: 100%;
+
+}
+
+.box2-8 img {
+    height: 100%;
+    width: 100%;
+}
+
+.box2-9 {
+    height: 293vh;
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.box2-91 {
+    height: 48.6vh;
+    width: 16.5%;
+
+}
+
+.box2-91 img {
+    height: 100%;
+    width: 100%;
+
+}
+
+#box291 {
+    margin-left: 250px;
+    width: 250px;
+}
+
+#box292 {
+
+    width: 250px;
+}
+
+#box293 {
+
+    width: 250px;
+}
+
+.space {
+    height: 15vh;
+    width: 100%;
+
+}
+
+.list {
+    height: 78.5vh;
+    width: 100%;
+
+    display: flex;
+}
+
+.list1 {
+    height: 100%;
+    width: 12%;
+
+    margin-left: 34px;
+
+}
+
+.list2 {
+    height: 100%;
+    width: 14%;
+
+    margin-left: 20px
+}
+
+.list3 {
+    height: 50%;
+    width: 30%;
+
+}
+
+.list4 {
+    height: 30%;
+    width: 30%;
+
+}
+
+.list1 h5 {
+    font-size: 11px;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont,
+        Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    margin-left: 40px;
+    font-weight: 600;
+
+}
+
+.list1 ul {
+    font-family: Assistant, -apple-system, BlinkMacSystemFont,
+        Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 13.6px;
+    font-weight: 500;
+    color: #5d6d89;
+    letter-spacing: 0.5;
+
+
+}
+
+.list2 h5 {
+    font-size: 11px;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont,
+        Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    margin-left: 40px;
+    font-weight: 600;
+
+
+}
+
+.list2 ul {
+    font-family: Assistant, -apple-system, BlinkMacSystemFont,
+        Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 13.6px;
+    font-weight: 500;
+    color: #5d6d89;
+    letter-spacing: 0.5;
+
+
+}
+
+.list3 h5 {
+    font-size: 11px;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont,
+        Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    margin-left: 40px;
+    font-weight: 600;
+
+
+}
+
+.img2 {
+    height: 40px;
+    width: 125px;
+    margin-left: 8px;
+
+}
+
+.img1 {
+    height: 40px;
+    width: 125px;
+    margin-left: 40px;
+}
+
+.imm1 {
+    height: 21.5px;
+    width: 21.5px;
+    margin-left: 40px;
+
+}
+
+.imm2 {
+    height: 21.5px;
+    width: 21.5px;
+    margin-left: 14px;
+
+}
+
+.imm3 {
+    height: 21.5px;
+    width: 26px;
+    margin-left: 14px;
+
+}
+
+.imm4 {
+    height: 21.5px;
+    width: 21.5px;
+    margin-left: 14px;
+
+}
+
+.list41 {
+    height: 50%;
+    width: 100%;
+
+    display: flex;
+}
+
+
+.listtt1 {
+    height: 100%;
+    width: 15%;
+
+}
+
+.listtt2 {
+    height: 70%;
+    width: 55%;
+
+    margin-top: 20px;
+
+}
+
+.listtt1 img {
+    height: 56%;
+    width: 80%;
+    margin-top: 20px;
+}
+
+.listtt2 strong {
+    font-size: 14px;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont,
+        Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    word-spacing: .3em;
+
+
+
+}
+
+.listtt2 span {
+    font-size: 16px;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont,
+        Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 500;
+    color: #5d6d89;
+
+}
+
+.psearch {
+    height: 40vh;
+    width: 100%;
+
+}
+
+.line {
+    display: flex;
+    margin-top: 15px;
+}
+
+.line h1 {
+    border-top: 1px solid #eaeaec;
+
+    width: 80%;
+    position: relative;
+    bottom: 14px;
+}
+
+.span {
+    margin-left: 5px;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont,
+        Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    color: #282c3f;
+    margin-left: 75px;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 1px;
+}
+
+.psearch p {
+    font-family: Assistant, -apple-system, BlinkMacSystemFont,
+        Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    color: #5d6d89;
+    font-size: 15px;
+    line-height: 1.7em;
+    font-weight: 350;
+    margin-left: 75px;
+    margin-right: 60px;
+    margin-top: -6px;
+    letter-spacing: 0.1px;
+
+}
+
+.incase {
+    font-family: Assistant, -apple-system, BlinkMacSystemFont,
+        Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    color: #696b79;
+    ;
+    font-size: 15px;
+    font-weight: 350;
+    margin-left: 75px;
+    margin-top: 70px;
+}
+
+.psearch strong {
+    font-weight: 700;
+    color: #526cd0;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont,
+        Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+#www {
+    margin-left: 600px;
+}
+
+.border {
+    border: 1px solid #eaeaec;
+    margin-left: 75px;
+    margin-right: 65px;
+    width: auto;
+}
+
+.ppp {
+    height: 40vh;
+    width: 100%;
+
+
+}
+
+.address {
+    margin-left: 5px;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont,
+        Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    color: #282c3f;
+    margin-left: 75px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 1px;
+
+}
+
+.ppp p {
+    font-family: Assistant, -apple-system, BlinkMacSystemFont,
+        Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    color: #696b79;
+    font-size: 15px;
+    font-weight: 350;
+    margin-left: 75px;
+    line-height: 6.5px;
+
+}
+
+#build {
+    margin-top: 30px;
+}
+
+.address1 {
+    margin-left: 5px;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont,
+        Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    color: #535766;
+    margin-left: 75px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 1px;
+
+}
+
+.box3 p {
+    font-family: Assistant, -apple-system, BlinkMacSystemFont,
+        Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    color: #696b79;
+    font-size: 13px;
+    font-weight: 350;
+    margin-left: 75px;
+    line-height: 20px;
+    margin-right: 70px;
+    word-spacing: 0.07em;
+
+}
+
+.box3 strong {
+    margin-left: 5px;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont,
+        Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    color: #535766;
+
+    font-size: 15px;
+    font-weight: 00;
+    margin-top: 1px;
+}
+
+.box3 li {
+    font-family: Assistant, -apple-system, BlinkMacSystemFont,
+        Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    color: #696b79;
+    font-size: 15px;
+    font-weight: 390;
+
+    line-height: 20px;
+    margin-right: 70px;
+    word-spacing: 0.1em;
+    padding-top: 0.5em;
+}
+
+.box3 ul {
+    list-style-type: style;
+    margin-left: 70px;
+    margin-top: -12px;
+
+}
+
+</style>
